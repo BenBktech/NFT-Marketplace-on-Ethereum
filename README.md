@@ -1,6 +1,14 @@
 # NFT Marketplace
 
+## General instructions 
+
+### Backend 
+
 Rename .env.example to .env and put your private key, the rpc url and your etherscan API key
+
+### Frontend 
+
+Rename .env.example to .env and put your NFT.storage API KEY and your Web3Modal ID
 
 ## Infos 
 
