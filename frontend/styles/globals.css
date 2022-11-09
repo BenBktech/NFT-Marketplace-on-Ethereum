@@ -1,0 +1,56 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255,255,255) !important;
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 23%, rgba(212,255,250,1) 61%, rgba(229,207,235,1) 100%) !important;
+}
+
+.header {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(23, 23, 23);
+}
+
+.header__menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.body {
+  color: rgb(52, 52, 53);
+  padding: 2rem;
+}
+
+.nftItemElement {
+  background: rgb(255,255,255);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}

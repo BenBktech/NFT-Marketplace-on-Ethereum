@@ -1,0 +1,11 @@
+/backend/.env 
+/backend/artifacts
+/backend/cache 
+/backend/coverage 
+/backend/node_modules
+/backend/typechain-types
+
+/frontend/.env
+/frontend/node_modules 
+/frontend/.next
+/frontend/old
